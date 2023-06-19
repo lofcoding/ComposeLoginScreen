@@ -29,7 +29,7 @@ val Roboto = FontFamily(
 )
 
 // Set of Material typography styles to start with
-val Typography = Typography(
+val CompactTypography = Typography(
     headlineLarge = TextStyle(
         fontFamily = Roboto,
         fontWeight = FontWeight.ExtraBold,
@@ -51,6 +51,99 @@ val Typography = Typography(
         fontSize = 14.sp
     )
 )
+
+val CompactMediumTypography = Typography(
+    headlineLarge = TextStyle(
+        fontFamily = Roboto,
+        fontWeight = FontWeight.ExtraBold,
+        fontSize = 28.sp
+    ),
+    headlineMedium = TextStyle(
+        fontFamily = Rubik,
+        fontWeight = FontWeight.Bold,
+        fontSize = 22.sp
+    ),
+    titleMedium = TextStyle(
+        fontFamily = Inter,
+        fontWeight = FontWeight.Medium,
+        fontSize = 14.sp
+    ),
+    labelMedium = TextStyle(
+        fontFamily = Roboto,
+        fontWeight = FontWeight.Normal,
+        fontSize = 14.sp
+    )
+)
+
+val CompactSmallTypography = Typography(
+    headlineLarge = TextStyle(
+        fontFamily = Roboto,
+        fontWeight = FontWeight.ExtraBold,
+        fontSize = 22.sp
+    ),
+    headlineMedium = TextStyle(
+        fontFamily = Rubik,
+        fontWeight = FontWeight.Bold,
+        fontSize = 16.sp
+    ),
+    titleMedium = TextStyle(
+        fontFamily = Inter,
+        fontWeight = FontWeight.Medium,
+        fontSize = 10.sp
+    ),
+    labelMedium = TextStyle(
+        fontFamily = Roboto,
+        fontWeight = FontWeight.Normal,
+        fontSize = 10.sp
+    )
+)
+
+val MediumTypography = Typography(
+    headlineLarge = TextStyle(
+        fontFamily = Roboto,
+        fontWeight = FontWeight.ExtraBold,
+        fontSize = 38.sp
+    ),
+    headlineMedium = TextStyle(
+        fontFamily = Rubik,
+        fontWeight = FontWeight.Bold,
+        fontSize = 30.sp
+    ),
+    titleMedium = TextStyle(
+        fontFamily = Inter,
+        fontWeight = FontWeight.Medium,
+        fontSize = 16.sp
+    ),
+    labelMedium = TextStyle(
+        fontFamily = Roboto,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp
+    )
+)
+
+val ExpandedTypography = Typography(
+    headlineLarge = TextStyle(
+        fontFamily = Roboto,
+        fontWeight = FontWeight.ExtraBold,
+        fontSize = 42.sp
+    ),
+    headlineMedium = TextStyle(
+        fontFamily = Rubik,
+        fontWeight = FontWeight.Bold,
+        fontSize = 34.sp
+    ),
+    titleMedium = TextStyle(
+        fontFamily = Inter,
+        fontWeight = FontWeight.Medium,
+        fontSize = 18.sp
+    ),
+    labelMedium = TextStyle(
+        fontFamily = Roboto,
+        fontWeight = FontWeight.Normal,
+        fontSize = 18.sp
+    )
+)
+
 
 
 
