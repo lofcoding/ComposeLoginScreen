@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ComposeLoginScreen</string>
+    <string name="app_logo">App Logo</string>
+    <string name="the_tolet">The Tolet</string>
+    <string name="find_house">Find Your House</string>
+    <string name="login">Login</string>
 </resources>
